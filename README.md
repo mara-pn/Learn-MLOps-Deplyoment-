@@ -5,6 +5,7 @@ A range of Convolutional Neural Network (CNN) architectures were implemented —
 
 ## Project Overview
 
+### CIFAR-10_classification.ipynb
 This notebook documents the process of:
 - Loading and visualizing the CIFAR-10 dataset
 - Building and evaluating baseline CNN architectures
@@ -13,8 +14,15 @@ This notebook documents the process of:
 - Implementing transfer learning with pre-trained models from ImageNet
 - Fine-tuning and data augmentation for improved generalization
 - Comparing performance metrics across all tested models
-
 The final results are summarized in a comparison table, showing model accuracies and loss values across configurations.
+
+### Testing_Best_Model.ipynb
+This notebook documents the process of:
+- re-running the best performing model (fine-tuned EfficientNetB0)
+- testing it on random samples 
+
+### CIFAR-10_Classification_Project.pdf
+group presentation of the work
 
 ## Dataset Information
 
